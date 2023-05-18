@@ -1,4 +1,4 @@
-FROM amazoncorretto:17-alpine
+FROM arm64v8/amazoncorretto:17-alpine3.16
 EXPOSE 14579
 WORKDIR /app
 ARG artifact=build/libs/NCANode.jar
